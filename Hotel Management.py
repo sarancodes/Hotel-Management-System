@@ -80,14 +80,14 @@ def res():
 
             elif (c==5):
                  d=int(input("Enter the quantity:"))
-                 res.r=res.r+150*d
+                 res.r=res.r+160*d
 
             elif (c==6):
                 break;
             else:
-                print("Invalid option")
+                print("Invalid Option")
 
-        print ("Total food Cost=Rs",res.r,"\n")        
+        print ("Total food Cost = Rs",res.r,"\n")        
 
 def	laundrybill():
         laundrybill.t=0
